@@ -1,0 +1,21 @@
+Git commands:
+git clone/https://github.com/ArsiMonte/GitActivity-4.git
+cd GitActivity-4
+git checkout -b leader-branch
+notepad introduction.txt
+git add introduction.txt
+git commit -m "Descriptive commit message."
+git push origin leader-branch
+git checkout main
+git fetch origin
+git merge leader-branch
+git merge origin/member-branch
+git push origin main
+
+git clone https://github.com/ArsiMonte/GitActivity-4.git
+cd GitActivity-4
+git checkout -b member-branch
+notepad methodology.txt
+git add methodology.txt
+git commit -m "Descriptive commit message."
+git push origin member-branch
